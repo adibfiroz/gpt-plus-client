@@ -1,0 +1,8 @@
+.dashboardLayout {
+
+  .content {
+    background-color: #12101b;
+  height: calc(100vh - 55px);
+
+  }
+}

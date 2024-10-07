@@ -1,0 +1,58 @@
+.message{
+  padding: 20px;
+
+  &.user{
+    background-color: #2c2937;
+    border-radius: 20px;
+    max-width: 80%;
+    align-self: flex-end;
+  }
+}
+
+  .newForm{
+    background-color: #2c2937;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 15px;
+
+
+    input{
+      flex:1;
+      padding:20px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: #ececec;
+    }
+
+    button,label{
+      border-radius: 50%;
+      background-color: #605e68;
+      border: none;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      img{
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+
+  textarea::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    background-color: #47464b; /* Background color of the scrollbar track */
+    height: 5px;
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.253); /* Color of the scrollbar thumb */
+    border-radius: 1px; /* Border radius of the scrollbar thumb */
+  }
+  
